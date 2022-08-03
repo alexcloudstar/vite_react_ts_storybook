@@ -1,4 +1,6 @@
+//@ts-ignore
 const path = require('path')
+//@ts-ignore
 const { loadConfigFromFile, mergeConfig } = require('vite')
 
 module.exports = {
@@ -15,7 +17,7 @@ module.exports = {
   features: {
     storyStoreV7: true,
   },
-  async viteFinal(config) {
+  async viteFinal(config: any) {
     const { config: userConfig } = await loadConfigFromFile(
       path.resolve(__dirname, '../vite.config.ts')
     )
