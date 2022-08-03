@@ -1,7 +1,7 @@
 {
-  "name": "vite_react_ts_storybook",
+  "name": "vite_react_ts_storybook_boilerplate",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "engines": {
     "node": ">=16.13.0",
     "npm": ">=8.1.0",
@@ -49,6 +49,7 @@
     "eslint-plugin-storybook": "^0.6.2",
     "husky": "^8.0.1",
     "prettier": "^2.7.1",
+    "semantic-release": "^19.0.3",
     "stylelint": "^14.9.1",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-recess-order": "^3.0.0",
