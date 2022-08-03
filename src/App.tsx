@@ -1,5 +1,5 @@
 import './App.css'
-import { Button } from './stories/Button'
+import { Button } from './stories'
 
 function App() {
   return (
