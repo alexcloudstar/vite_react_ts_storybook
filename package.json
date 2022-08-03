@@ -2,11 +2,17 @@
   "name": "vite_react_ts_storybook",
   "private": true,
   "version": "0.0.0",
+  "engines": {
+    "node": ">=16.13.0",
+    "npm": ">=8.1.0",
+    "yarn": ">= 1.22.19"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint:scripts": "eslint --ext .ts,.tsx src"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -15,7 +21,15 @@
   "devDependencies": {
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
     "@vitejs/plugin-react": "^2.0.0",
+    "eslint": "^8.21.0",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "stylelint": "^14.9.1",
+    "stylelint-config-recess-order": "^3.0.0",
+    "stylelint-config-standard": "^26.0.0",
     "typescript": "^4.6.4",
     "vite": "^3.0.0"
   }
